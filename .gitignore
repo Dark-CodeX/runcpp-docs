@@ -3,4 +3,4 @@
 
 node_modules
 
-src/.vitepress/cache
+docs/.vitepress/cache
