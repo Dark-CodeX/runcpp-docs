@@ -1,2 +1,6 @@
 ### VisualStudioCode ###
 .vscode/*
+
+node_modules
+
+docs/.vitepress/cache
