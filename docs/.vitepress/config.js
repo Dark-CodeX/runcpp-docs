@@ -1,5 +1,6 @@
 module.exports = {
     title: "RUNCPP Documentation",
+    base: "/runcpp-docs/",
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
