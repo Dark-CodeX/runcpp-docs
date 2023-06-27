@@ -14,7 +14,7 @@ To download the pre-compiled executable files, you can visit [release page](http
     - Now, as you don't have `RUNCPP` already, you need to first compile it as a simple executable, and then generate an optimized executable.
         - #### GNU/Linux or MacOS:
             - ```bash
-              $ clang++ ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.c ./runcpp/src/parser/*.cc ./runcpp/src/main/main.cc -o main
+              $ clang++ -std=c++20 ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.c ./runcpp/src/parser/*.cc ./runcpp/src/main/main.cc -o main
               $ ./main
               ```
             - After above commands are executed your optimized `RUNCPP` executable is ready-to-use, and is installed in `/usr/bin/runcpp`.
