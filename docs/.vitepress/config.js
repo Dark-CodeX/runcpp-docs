@@ -19,8 +19,8 @@ module.exports = {
             {
                 text: "Getting Started",
                 items: [
-                    { text: "Introduction", link: "/guide/introduction" },
-                    { text: "Installation", link: "/guide/installation" },
+                    { text: "Introduction", link: "/getting-started/introduction" },
+                    { text: "Installation", link: "/getting-started/installation" },
                 ]
             },
             {
@@ -30,7 +30,7 @@ module.exports = {
         search: {
             provider: "local"
         },
-        lastUpdatedText: "Changed on",
+        lastUpdatedText: "Last Updated",
         editLink: {
             pattern: 'https://github.com/Dark-CodeX/runcpp-docs/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
