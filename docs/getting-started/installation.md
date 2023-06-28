@@ -11,6 +11,11 @@ To download the pre-compiled executable files, you can visit [release page](http
     - [`openutils`](https://github.com/Dark-CodeX/openutils.git) library, installation instructions are mentioned on library's repository.
     - [`git`](https://git-scm.com/downloads) to clone the `RUNCPP` repository.
 - ### Compiling
+    - Clone the repository first, using following command:
+      - ```bash
+        $ git clone https://github.com/Dark-CodeX/runcpp.git
+        $ cd ./runcpp
+        ```
     - Now, as you don't have `RUNCPP` already, you need to first compile it as a simple executable, and then generate an optimized executable.
         - #### GNU/Linux or MacOS:
             - ```bash
@@ -19,6 +24,7 @@ To download the pre-compiled executable files, you can visit [release page](http
               ```
             - After above commands are executed your optimized `RUNCPP` executable is ready-to-use, and is installed in `/usr/bin/runcpp`.
         - #### Windows:
+            - Open [`Powershell for Visual Studio 2022`](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022), and use `cd` command to navigate to repository's directory.
             - ```powershell
               cl /std:c++latest ./runcpp/src/main/main.cc ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.c ./runcpp/src/parser/*.cc
               ./main
