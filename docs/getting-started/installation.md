@@ -19,14 +19,16 @@ To download the pre-compiled executable files, you can visit [release page](http
     - Now, as you don't have `RUNCPP` already, you need to first compile it as a simple executable, and then generate an optimized executable.
         - #### GNU/Linux or MacOS:
             - ```bash
-              $ clang++ -std=c++20 ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.c ./runcpp/src/parser/*.cc ./runcpp/src/main/main.cc -o main
+              $ mkdir -p ./bin
+              $ clang++ -std=c++20 ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.cc ./runcpp/src/parser/*.cc ./runcpp/src/main/main.cc -o main
               $ ./main
               ```
             - After above commands are executed your optimized `RUNCPP` executable is ready-to-use, and is installed in `/usr/bin/runcpp`.
         - #### Windows:
-            - Open [`Powershell for Visual Studio 2022`](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022), and use `cd` command to navigate to repository's directory.
+            - Open [`Developer Powershell for VS 2022`](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022), and use `cd` command to navigate to repository's directory.
             - ```powershell
-              cl /std:c++latest ./runcpp/src/main/main.cc ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.c ./runcpp/src/parser/*.cc
+              mkdir ./obj ./bin
+              cl /std:c++latest /Fo./obj/ ./runcpp/src/main/main.cc ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.cc ./runcpp/src/parser/*.cc
               ./main
               ```
             - Now, an optimized executable file is created with name of `runcpp.exe` in `bin` directory.
