@@ -8,6 +8,14 @@
 
 Yes, `RUNCPP` is cross-platform, which means it runs on Windows, MacOS and GNU/Linux.
 
+## Does `RUNCPP` works only for C++?
+
+No, `RUNCPP` is a build-system for any programming language and it can even work for automation tasks as well.
+
+## In what language is `RUNCPP` source code is?
+
+`RUNCPP` is entirely written in C/C++, for ultimate performance and optimization on your machine.
+
 ## What are the features of `RUNCPP`?
 
 - Comments
