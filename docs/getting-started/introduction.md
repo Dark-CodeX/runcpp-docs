@@ -27,7 +27,7 @@ Yes, `RUNCPP` is cross-platform, which means it runs on Windows, MacOS and GNU/L
 
 ## Is `RUNCPP` efficient? :fire:
 
-Yes, `RUNCPP` is very efficient, it can start building your project in less than a second for a config file of around 50,000 lines of instructions.
+Yes, `RUNCPP` is very efficient, it can start building your project in less than a second for a config file of 10MB in size, it took **871.636** milliseconds on average on an [Intel® Core™ i7-10870H Processor](https://ark.intel.com/content/www/us/en/ark/products/208018/intel-core-i710870h-processor-16m-cache-up-to-5-00-ghz.html).
 
 ## Is config syntax easy-to-learn?
 
