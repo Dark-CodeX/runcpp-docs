@@ -18,13 +18,21 @@ module.exports = {
         sidebar: [
             {
                 text: "Getting Started",
+                collapsed: true,
                 items: [
                     { text: "Introduction", link: "/getting-started/introduction" },
                     { text: "Installation", link: "/getting-started/installation" },
                 ]
             },
             {
-                text: "Config Syntax"
+                text: "RUNCPP Flags",
+                collapsed: true,
+                items: [
+                    { text: "Help", link: "/flags/help" },
+                    { text: "Library", link: "/flags/library" },
+                    { text: "Version", link: "/flags/version" },
+                    { text: "Generate", link: "/flags/generate" },
+                ]
             }
         ],
         search: {
