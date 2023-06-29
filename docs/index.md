@@ -9,3 +9,8 @@ You can use this documentation to guide yourself on how to install and begin wri
 - Getting Started
     - [Introduction](/getting-started/introduction)
     - [Installation](/getting-started/installation)
+- `RUNCPP` Flags
+    - [Help]("/flags/help")
+    - [Library]("/flags/library")
+    - [Version]("/flags/version")
+    - [Generate]("/flags/generate")
