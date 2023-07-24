@@ -43,4 +43,4 @@ Yes, `RUNCPP`'s config syntax is easy-to-learn and doesn't need any special prog
 
 ## Can it be used instead of `make`?
 
-No, `make` is still a powerful tool compared to `RUNCPP`, but still I'm trying to advance it.
+Yes, you can use `RUNCPP` instead of `make` for your build-system environment and workflow.

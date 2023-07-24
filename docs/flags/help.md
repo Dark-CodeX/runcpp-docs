@@ -19,6 +19,7 @@ Options:
     --generate, -gen          Generate a configuration file by taking user input.
     --print, -p               Print the parsed output.
     --file, -f                Specify the file to use.
+    --print-gui-client        Print the parsed output with target's name and hash, must be used with '--file' or '--serialize' flag.
     --merge, -m               Resolves any 'import' statements and merges all imported files into a single file.
     --serialize, -s           Serialize the configuration file in binary format.
     --deserialize, -d         Deserialize the configuration file.
@@ -32,10 +33,12 @@ Syntax Rules:
     runcpp --print [targets]
 --file, -f:
     runcpp --file --print <path_to_file> [targets]
+    runcpp --file --print-gui-client <path_to_file>
 --merge, -m:
     runcpp --merge <path_to_file> -o <path_to_output_file>
 --serialize, -s:
     runcpp --serialize <path_to_input_file> -o <path_to_output_file>
+    runcpp --serialize <path_to_input_file> -o <path_to_output_file> --print-gui-client
 --deserialize, -d:
     runcpp --deserialize --print <path_to_input_file> [targets]
 
@@ -48,5 +51,4 @@ Notes:
 
 License:
 This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. You may obtain a copy of this license at https://www.gnu.org/licenses/gpl-3.0.en.html.
-
 ```
