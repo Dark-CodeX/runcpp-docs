@@ -14,7 +14,8 @@ Which will show the help message:
 Usage: [options] [targets]
 Options:
     --help, -h                Display this help message.
-    --libs, -l                Show the list of used libraries.
+    --libs, -l                Display the list of used libraries.
+    --info, -I                Display the time of compilation and name of compiler.
     --version, -v             Display the version of the app.
     --generate, -gen          Generate a configuration file by taking user input.
     --print, -p               Print the parsed output.

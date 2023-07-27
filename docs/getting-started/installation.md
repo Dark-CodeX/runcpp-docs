@@ -20,7 +20,7 @@ To download the pre-compiled executable files, you can visit [release page](http
         - #### GNU/Linux or MacOS:
             - ```bash
               $ mkdir -p ./bin
-              $ g++ -std=c++20 ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.cc ./runcpp/src/parser/*.cc ./runcpp/src/main/main.cc -o main
+              $ g++ -std=c++20 ./runcpp/src/caller/caller.cc ./runcpp/src/command_line/command_line.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.cc ./runcpp/src/parser/*.cc ./runcpp/src/main/main.cc -o main
               $ ./main
               ```
             - After above commands are executed your optimized `RUNCPP` executable is ready-to-use, and is installed in `/usr/bin/runcpp`.
@@ -29,7 +29,7 @@ To download the pre-compiled executable files, you can visit [release page](http
             - ```powershell
               mkdir ./obj
               mkdir ./bin
-              cl /std:c++latest /Fo./obj/ ./runcpp/src/main/main.cc ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.cc ./runcpp/src/parser/*.cc
+              cl.exe /std:c++latest /Fo./obj/ ./runcpp/src/main/main.cc ./runcpp/src/command_line/command_line.cc ./runcpp/src/caller/caller.cc ./runcpp/src/io/io.cc ./runcpp/src/os/os.cc ./runcpp/src/parser/*.cc
               ./main
               ```
             - Now, an optimized executable file is created with name of `runcpp.exe` in `bin` directory.

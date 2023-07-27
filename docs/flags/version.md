@@ -12,5 +12,4 @@ Which will show the current version of the application:
 
 ```bash
 runcpp: v1.0.0
-
 ```
