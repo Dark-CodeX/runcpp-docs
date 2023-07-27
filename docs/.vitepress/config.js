@@ -30,6 +30,7 @@ module.exports = {
                 items: [
                     { text: "Help", link: "/flags/help" },
                     { text: "Library", link: "/flags/library" },
+                    { text: "Info", link: "/flags/info" },
                     { text: "Version", link: "/flags/version" },
                     { text: "Generate", link: "/flags/generate" },
                 ]
